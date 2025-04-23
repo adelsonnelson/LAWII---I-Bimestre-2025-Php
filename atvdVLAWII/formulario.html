@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class=" container">
+                <nav class="navbar navbar-light bg-light ">
+                    <a class=" navbar-brand " href=" #">
+                        <img src="bootstrap/logo.png" width=" 30 "
+                            height=" 30 "
+                            alt=" ">
+                    </a>
+                </nav>
+            </div>
+            <div class="container">
+                <h1> Informe seu nome e data de nascimento: </h1>
+            </div>
+            <div class="container">
+                <form action="dados.php" method="post">
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-sm-6">
+                    <label for="nome"> Digite o nome: </label>
+                    <input type="text" class="form-control" name="nome" placeholder="Marcelo Correa Mussel" required>
+                </div></div>
+    
+                <div class="form-group">
+                    <div class="col-sm-6">
+                    <label for="nome"> Data de nascimento: </label>
+                    <input type="date" class="form-control" name="data" required>
+                </div></div>
+            </div>    
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Enviar </button>
+            </div>
+        </div>
+                </form>
+            </body>
+        </html>
